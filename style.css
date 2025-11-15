@@ -103,7 +103,7 @@ section {
 
 /* Logo Bubble */
 .nav-logo-bubble {
-    background: var(--primary);
+    background-image:url(techlogo.png); 
     width: 55px;
     height: 55px;
     display: flex;
@@ -112,6 +112,9 @@ section {
     border-radius: 50%;
     box-shadow: 0 7px 20px rgba(255,107,53,0.4);
     transition: transform 0.2s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .nav-logo-bubble:hover {
